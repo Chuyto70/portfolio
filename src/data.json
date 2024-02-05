@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "title":"Linetor",
+            "stack": ["#HTML", "#CSS", "#JAVSCRIPT", "#VUEJS", "#SQLSERVER", "#NodeJS"],
+            "description": "En Linetor comencé realizando modificaciones al frontend, corrigiendo algunos errores de diseño. Posteriormente, desarrollé en su totalidad el apartado del backend, conectando una base de datos existente con la página web. Esta acción facilitó el acceso a la información para los clientes de Linetor.",
+            "url": "https://www.linetor.net/#/",
+            "image": "Linetor_big.png"
+            
+        },
+        {
+            "title":"Seguidor Market",
+            "stack": ["#HTML", "#CSS", "#LARAVEL", "#PHP", "#MYSQL"],
+            "description": "En este proyecto asumí el rol de desarrollador principal, creando un sistema completo que abarca un apartado de presentación donde se ofrece una descripción del proyecto y sus funcionalidades, registro y login permitiendo a los usuarios crear cuentas y acceder al sistema, panel administrativo con diferentes secciones para usuarios normales y administradores, verificación de cuenta por correo electrónico para garantizar la seguridad de los usuarios, métodos de pago integrados como Stripe y Binance Pay, facilitando las transacciones dentro del sistema.",
+            "url": "https://seguidormarket.com/",
+            "image": "Seguidormarket_big.png"
+            
+        },
+        {
+            "title":"Baja tu factura",
+            "stack": ["#HTML", "#CSS", "#JAVSCRIPT", "#VUEJS", "#NUXTJS", "#WORDPRESS"],
+            "description": "Junto con otro programador, realizamos el desarrollo de Bajatufactura, una aplicación web para gestionar facturas. En este proyecto, hicimos uso de Git y GitLab para poder llevar el trabajo coordinado. Yo me encargué de hacer las vistas de los formularios, donde los usuarios podían calcular el coste de sus facturas comparandolas con otras empresas, y las vistas de los gráficos, donde podían ver estadísticas y reportes. ",
+            "url": "https://www.bajatufactura.es/",
+            "image": "bajatufactura_big.png"
+            
+        }
+    ]
+}
