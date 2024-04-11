@@ -11,7 +11,7 @@ import CardWorks from './components/CardWorks'
 export default function Home() {
   const projects = dataJson.data
   return (
-    <main className="flex min-h-screen flex-col md:p-24 p-8 bg-[#F2F2F2] dark:bg-[#1f2937]">
+    <main className="flex min-h-screen flex-col md:p-24 p-8 bg-[#F2F2F2] dark:bg-[#374151]">
      <div className='lg:flex lg:flex-row gap-6 flex-col '>
       <div className='lg:max-w-xs'>
         <div className='mb-4'>
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className='bg-white dark:bg-[#374151] rounded-xl p-4 shadow-md mt-6 text-[#4F4F4F] dark:text-white'>
+        <div className='bg-white rounded-xl p-4 shadow-md mt-6 text-[#4F4F4F]'>
           Projects ({projects.length})
         </div>
 

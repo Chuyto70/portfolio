@@ -9,8 +9,8 @@ import { FcLinux } from "react-icons/fc";
 
 export default function BackendSkills(){
     return (
-        <div className="bg-white dark:bg-[#374151] rounded-xl p-4 shadow-md h-[180px] overflow-auto">
-           <h3 className="font-semibold text-[#4F4F4F] dark:text-white">Backend Skills</h3>
+        <div className="bg-white rounded-xl p-4 shadow-md h-[180px] overflow-auto">
+           <h3 className="font-semibold text-[#4F4F4F]">Backend Skills</h3>
            <div className="flex flex-wrap gap-3 mt-2">
             <SiMysql size={48}/>
             <FaNodeJs size={48} color={'green'}/>

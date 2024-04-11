@@ -6,8 +6,8 @@ import { TbApi } from "react-icons/tb";
 
 export default function Experience(){
     return (
-    <div className="bg-white dark:bg-[#374151] rounded-xl p-4 shadow-md">
-        <h1 className="text-xl text-[#4F4F4F] dark:text-white font-medium">Experiencias</h1>
+    <div className="bg-white rounded-xl p-4 shadow-md">
+        <h1 className="text-xl text-[#4F4F4F] font-medium">Experiencias</h1>
         <div className="mt-6">
             <div className="flex gap-4 md:flex-row flex-col">
                 <div className="min-w-[65px]">
@@ -18,9 +18,9 @@ export default function Experience(){
                     src={'/linetor.png'}/>
                 </div>
                 <div className="flex flex-col">
-                    <span className="text-[#828282] dark:text-white text-xs">Enero 2022 - Septiembre 2022</span>
-                    <strong className="text-sm text-[#333333] dark:text-white mt-1">Full Stack developer</strong>
-                    <p className="text-sm mb-4 text-[#828282] dark:text-white font-medium mt-6">
+                    <span className="text-[#828282] text-xs">Enero 2022 - Septiembre 2022</span>
+                    <strong className="text-sm text-[#333333] mt-1">Full Stack developer</strong>
+                    <p className="text-sm mb-4 text-[#828282] font-medium mt-6">
                         En el desarrollo de una web junto a otro programador, me encargué de funcionalidades tanto del backend como del frontend.
                     </p>
                     <hr />
@@ -40,9 +40,9 @@ export default function Experience(){
                     src={'/financeprobooks.png'}/>
                 </div>
                 <div className="flex flex-col">
-                    <span className="text-[#828282] dark:text-white text-xs">Octubre 2022 - Diciembre 2022</span>
-                    <strong className="text-sm text-[#333333] dark:text-white mt-1">Full Stack developer</strong>
-                    <p className="text-sm mb-4 text-[#828282] dark:text-white font-medium mt-6">
+                    <span className="text-[#828282] text-xs">Octubre 2022 - Diciembre 2022</span>
+                    <strong className="text-sm text-[#333333] mt-1">Full Stack developer</strong>
+                    <p className="text-sm mb-4 text-[#828282] font-medium mt-6">
                         Implementé un sistema de roles, subscripciones con Stripe y una interfaz de administración para crear nuevas entradas, utilizando el paradigma MVC.
                     </p>
                     <hr />
@@ -63,9 +63,9 @@ export default function Experience(){
                     src={'/seguidormarket.png'}/>
                 </div>
                 <div className="flex flex-col">
-                    <span className="text-[#828282] dark:text-white text-xs">Enero 2023 - Marzo 2023</span>
-                    <strong className="text-sm text-[#333333] dark:text-white mt-1">Full Stack developer</strong>
-                    <p className="text-sm mb-4 text-[#828282] dark:text-white font-medium mt-6">
+                    <span className="text-[#828282] text-xs">Enero 2023 - Marzo 2023</span>
+                    <strong className="text-sm text-[#333333] mt-1">Full Stack developer</strong>
+                    <p className="text-sm mb-4 text-[#828282] font-medium mt-6">
                         La web se desarrolló de forma completa, implementando métodos de pago con Stripe, Payeer y Binance Pay. Utilizando webhooks, si el pago se realizaba correctamente, se realizaba una petición HTTP POST a una API externa.
 
                     </p>

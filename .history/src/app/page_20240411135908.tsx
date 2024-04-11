@@ -34,7 +34,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className='bg-white dark:bg-[#374151] rounded-xl p-4 shadow-md mt-6 text-[#4F4F4F] dark:text-white'>
+        <div className='bg-white dark:bg-[#1f2937] rounded-xl p-4 shadow-md mt-6 text-[#4F4F4F] dark:text-white'>
           Projects ({projects.length})
         </div>
 

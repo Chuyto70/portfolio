@@ -63,9 +63,9 @@ export default function Experience(){
                     src={'/seguidormarket.png'}/>
                 </div>
                 <div className="flex flex-col">
-                    <span className="text-[#828282] dark:text-white text-xs">Enero 2023 - Marzo 2023</span>
-                    <strong className="text-sm text-[#333333] dark:text-white mt-1">Full Stack developer</strong>
-                    <p className="text-sm mb-4 text-[#828282] dark:text-white font-medium mt-6">
+                    <span className="text-[#828282] text-xs">Enero 2023 - Marzo 2023</span>
+                    <strong className="text-sm text-[#333333] mt-1">Full Stack developer</strong>
+                    <p className="text-sm mb-4 text-[#828282] font-medium mt-6">
                         La web se desarrolló de forma completa, implementando métodos de pago con Stripe, Payeer y Binance Pay. Utilizando webhooks, si el pago se realizaba correctamente, se realizaba una petición HTTP POST a una API externa.
 
                     </p>

@@ -33,8 +33,8 @@ export default function Hobbies(){
                     objectFit="contain"
                     />
                 </div>
-                 <strong className="text-lg text-[#333333] dark:text-white">Gaming &#127918; </strong>
-                 <p className="text-sm mb-4 text-[#828282] dark:text-white font-medium mt-2">
+                 <strong className="text-lg text-[#333333]">Gaming &#127918; </strong>
+                 <p className="text-sm mb-4 text-[#828282] font-medium mt-2">
                         Disfruto de jugar videojuegos en mi tiempo libre, especialmente los que son competitivos.
                     </p>
             </div>

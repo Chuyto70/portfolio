@@ -8,7 +8,7 @@ interface Props<T> {
 const CardWorks = <T extends { title: string, stack: Array<string>, description: string, url: string, image: string }>({ data }: Props<T>) => {
 
   return (
-    <div className='bg-white dark:bg-[#374151] rounded-xl p-6 shadow-md mt-6 text-[#4F4F4F] dark:text-white flex gap-4 flex-col md:flex-row'>
+    <div className='bg-white rounded-xl p-6 shadow-md mt-6 text-[#4F4F4F] flex gap-4 flex-col md:flex-row'>
         <div className='md:max-w-[300px] md:min-w-[200px] w-full'>
             <img className='rounded-md h-full object-cover' src={data.image} alt={data.title} />
         </div>
@@ -16,11 +16,11 @@ const CardWorks = <T extends { title: string, stack: Array<string>, description:
             <div className='flex flex-wrap'>
 
                 {
-                    data.stack.map(el => <p key={el} className='text-sm mr-1 font-medium text-[#4F4F4F] dark:text-white'>{el}</p>)
+                    data.stack.map(el => <p key={el} className='text-sm mr-1 font-medium text-[#4F4F4F]'>{el}</p>)
                 }
             </div>
-            <p className='text-lg text-[#333333] dark:text-white font-semibold mt-2 mb-1'>{data.title}</p>
-            <p className='text-sm text-[#828282] dark:text-white font-medium mb-1'>
+            <p className='text-lg text-[#333333] font-semibold mt-2 mb-1'>{data.title}</p>
+            <p className='text-sm text-[#828282] font-medium mb-1'>
                 {data.description}
             </p>
 

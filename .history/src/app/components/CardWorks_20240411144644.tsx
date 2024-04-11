@@ -16,11 +16,11 @@ const CardWorks = <T extends { title: string, stack: Array<string>, description:
             <div className='flex flex-wrap'>
 
                 {
-                    data.stack.map(el => <p key={el} className='text-sm mr-1 font-medium text-[#4F4F4F] dark:text-white'>{el}</p>)
+                    data.stack.map(el => <p key={el} className='text-sm mr-1 font-medium text-[#4F4F4F]'>{el}</p>)
                 }
             </div>
-            <p className='text-lg text-[#333333] dark:text-white font-semibold mt-2 mb-1'>{data.title}</p>
-            <p className='text-sm text-[#828282] dark:text-white font-medium mb-1'>
+            <p className='text-lg text-[#333333] font-semibold mt-2 mb-1'>{data.title}</p>
+            <p className='text-sm text-[#828282] font-medium mb-1'>
                 {data.description}
             </p>
 

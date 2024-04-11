@@ -13,7 +13,7 @@ export default function BackendSkills(){
            <h3 className="font-semibold text-[#4F4F4F] dark:text-white">Backend Skills</h3>
            <div className="flex flex-wrap gap-3 mt-2">
             <SiMysql size={48}/>
-            <FaNodeJs size={48} color={'green'}/>
+            <FaNodeJs size={48}  className="text-green"/>
             <BiLogoPhp size={48} color={'#1f222e'}/>
             <FaLaravel size={48} color={'#ff2d20'} /> 
             <FcLinux size={48} /> 

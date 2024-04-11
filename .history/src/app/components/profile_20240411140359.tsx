@@ -13,18 +13,18 @@ export default function Profile(){
                 src={'/perfil.jpeg'} />
             </div>
             <h3 className="font-semibold text-[#4F4F4F] dark:text-white mt-3">Jesús Hurtado 👋</h3>
-            <span className="text-xs text-[#828282] dark:text-white font-medium mb-6">Full-Stack Developer</span>
+            <span className="text-xs text-[#828282] font-medium mb-6">Full-Stack Developer</span>
 
             <div className="flex mt-6 items-center gap-2">
-                <IoIosMail size={24} className="dark:text-white " />
-                <span className="text-[#4F4F4F] dark:text-white font-medium">jjhurtado016@gmail.com</span>
+                <IoIosMail size={24} />
+                <span className="text-[#4F4F4F] font-medium">jjhurtado016@gmail.com</span>
             </div>
             <div className="flex mt-2 items-center gap-2">
-                <IoMdCall size={24} className="dark:text-white " />
-                <span className="text-[#4F4F4F] dark:text-white font-medium">(+58) 414 952 3016</span>
+                <IoMdCall size={24} />
+                <span className="text-[#4F4F4F] font-medium">(+58) 414 952 3016</span>
             </div>
 
-            <p className="text-[#828282] dark:text-white mt-4 text-center">
+            <p className="text-[#828282] mt-4 text-center">
                 Desarrollador motivado y dispuesto a aprender y crear aplicaciones de interfaz de usuario excepcionales o del lado del servidor.
             </p>
         </div>
