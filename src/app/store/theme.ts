@@ -1,16 +1,23 @@
+'use client'
 import { create } from 'zustand'
-import { persist, createJSONStorage } from 'zustand/middleware'
+import { persist } from 'zustand/middleware'
 
 type ThemeStore = {
-    theme: 'dark' | '';
+    theme: string | '';
     setDarkTheme: () => void;
     setLightTheme: () => void;
   }
 
-const getInitialTheme = (): 'dark' | '' => {
-  const storedTheme = localStorage.getItem('theme');
-  return storedTheme !== null ? storedTheme : 'dark';
-}
+  const getInitialTheme = (): string => {
+    if (typeof window !== 'undefined') {
+      const storedTheme = window.localStorage.getItem('theme');
+      return storedTheme ? storedTheme : '';
+    } else {
+      // Provide a default theme for server-side rendering (optional)
+      return ''; // Or some default theme value
+    }
+  };
+  
   
 export const useThemeStore = create(
   persist<ThemeStore>(

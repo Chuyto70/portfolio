@@ -1,5 +1,4 @@
 'use client'
-import { useState } from "react"
 import "/public/assets/css/switch.css"
 import { useThemeStore } from "../store/theme"
 
@@ -8,7 +7,6 @@ export function Switch() {
     let currentTheme = useThemeStore((state) => state.theme)
     const setDarkMode = useThemeStore((state) => state.setDarkTheme)
     const setLightMode = useThemeStore((state) => state.setLightTheme)
-    const [isCheckDarkMode, setIsCheckDarkMode] = useState()
 
     const handleCheckDarkMode = () => {
         currentTheme === 'dark'

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import './globals.css'
 import { MainContainer } from './components/MainContainer';
@@ -17,6 +16,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <MainContainer children={children} />
+    <MainContainer >
+      {children}
+    </MainContainer>
   )
 }
