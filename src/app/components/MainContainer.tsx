@@ -11,7 +11,7 @@ export function MainContainer({ children } : {
 
     const currentTheme = useThemeStore((state) => state.theme)
     return (
-        <html lang="en" className={currentTheme}>
+        <html lang="en" className={currentTheme === 'dark' ? 'dark' : ''}>
             <body  data-mode="dark" className={inter.className + ' bg-[#F2F2F2] dark:bg-[#1f2937] flex justify-center pt-8 transition-all'}>
                 <div className='max-w-screen-2xl relative'>
                 {children}
