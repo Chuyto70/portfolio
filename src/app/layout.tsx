@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 import './globals.css'
-import { MainContainer } from './components/MainContainer';
+import { MainContainer } from '@/src/app/components/MainContainer';
 
 
 

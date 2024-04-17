@@ -2,7 +2,7 @@
 
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Inter } from 'next/font/google'
-import { useThemeStore } from '../store/theme';
+import { useThemeStore } from '@/src/app/store/theme';
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
 export function MainContainer({ children } : {

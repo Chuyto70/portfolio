@@ -1,6 +1,6 @@
 'use client'
-import "/public/assets/css/switch.css"
-import { useThemeStore } from "../store/theme"
+import "@/public/assets/css/switch.css"
+import { useThemeStore } from "@/src/app/store/theme"
 
 
 export function Switch() {

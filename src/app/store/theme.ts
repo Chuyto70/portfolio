@@ -13,7 +13,6 @@ type ThemeStore = {
       const storedTheme = window.localStorage.getItem('theme');
       return storedTheme ? storedTheme : '';
     } else {
-      // Provide a default theme for server-side rendering (optional)
       return ''; // Or some default theme value
     }
   };

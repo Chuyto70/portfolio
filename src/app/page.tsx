@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import Profile from './components/profile'
-import Experience from './components/Experience'
-import Hobbies from './components/Hobbies'
-import FrontendSkills from './components/FrontendSkills'
-import BackendSkills from './components/BackendSkills'
-import dataJson from '../data.json'
-import CardWorks from './components/CardWorks'
-import { Switch } from './components/Switch'
+import Profile from '@/src/app/components/profile'
+import Experience from '@/src/app/components/Experience'
+import Hobbies from '@/src/app/components/Hobbies'
+import FrontendSkills from '@/src/app/components/FrontendSkills'
+import BackendSkills from '@/src/app/components/BackendSkills'
+import dataJson from '@/src/data.json'
+import CardWorks from '@/src/app/components/CardWorks'
+import { Switch } from '@/src/app/components/Switch'
 
 
 export default function Home() {

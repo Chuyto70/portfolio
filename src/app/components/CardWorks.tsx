@@ -1,5 +1,4 @@
 import React from 'react'
-import dataJson from '../../data.json'
 
 interface Props<T> {
   data: T
