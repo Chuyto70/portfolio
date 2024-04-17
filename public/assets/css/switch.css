@@ -1,0 +1,115 @@
+.toggle-icon:before,
+.toggle-default:before {
+  top: 0.1rem;
+  left: 0.1rem;
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+    0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.toggle-switch:hover .toggle-icon:before,
+.toggle-switch:hover .toggle-default:before {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0
+    var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0
+    calc(8px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow),
+    var(--tw-shadow, 0 0 #0000);
+  --tw-ring-color: rgb(208 188 255 / var(--tw-ring-opacity));
+  --tw-ring-opacity: 0.3;
+}
+
+.dark .toggle-switch:hover .toggle-icon:before,
+.dark .toggle-switch:hover .toggle-default:before {
+  --tw-ring-color: rgb(103 80 164 / var(--tw-ring-opacity));
+  --tw-ring-opacity: 0.3;
+}
+
+.toggle-checkbox:checked + .toggle-icon:before,
+.toggle-checkbox:checked + .toggle-default:before {
+  --tw-translate-x: 1rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.dark .toggle-checkbox:checked + .toggle-icon:before,
+.dark .toggle-checkbox:checked + .toggle-default:before {
+  --tw-bg-opacity: 1;
+  background-color: rgb(103 80 164 / var(--tw-bg-opacity));
+}
+
+.toggle-checkbox:checked + .toggle-icon:before,
+.toggle-checkbox:checked + .toggle-default:before {
+  background-size: 70%;
+}
+
+.toggle-icon:before {
+  background-size: 100%;
+  background-image: url('/assets/lampara-colgante.png');
+}
+
+.toggle-checkbox:checked + .toggle-icon:before {
+  background-image: url("/assets/oscuro.png");
+}
+
+.dark .toggle-icon:before {
+  background-image: url('/assets/lampara-colgante.png');
+}
+
+.dark .toggle-checkbox:checked + .toggle-icon:before {
+  background-image: url("/assets/oscuro.png");
+}
+
+.toggle-switch .toggle-icon,
+.toggle-switch .toggle-default {
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(121 116 126 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 224 236 / var(--tw-bg-opacity));
+}
+
+.dark .toggle-switch .toggle-icon,
+.dark .toggle-switch .toggle-default {
+  --tw-bg-opacity: 1;
+  background-color: rgb(73 69 79 / var(--tw-bg-opacity));
+}
+
+.toggle-switch .toggle-checkbox:checked + .toggle-icon,
+.toggle-switch .toggle-checkbox:checked + .toggle-default {
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(103 80 164 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(103 80 164 / var(--tw-bg-opacity));
+}
+
+.dark .toggle-switch .toggle-checkbox:checked + .toggle-icon,
+.dark .toggle-switch .toggle-checkbox:checked + .toggle-default {
+  --tw-border-opacity: 1;
+  border-color: rgb(208 188 255 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 188 255 / var(--tw-bg-opacity));
+}

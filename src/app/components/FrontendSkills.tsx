@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import { FaReact, FaVuejs } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 

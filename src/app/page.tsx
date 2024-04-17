@@ -6,13 +6,15 @@ import FrontendSkills from './components/FrontendSkills'
 import BackendSkills from './components/BackendSkills'
 import dataJson from '../data.json'
 import CardWorks from './components/CardWorks'
+import { Switch } from './components/Switch'
 
 
 export default function Home() {
   const projects = dataJson.data
   return (
-    <main className="flex min-h-screen flex-col md:p-24 p-8 bg-[#F2F2F2] dark:bg-[#1f2937]">
-     <div className='lg:flex lg:flex-row gap-6 flex-col '>
+    <main className="flex min-h-screen flex-col md:p-24 p-8 ">
+     <div className='lg:flex lg:flex-row gap-6 flex-col relative '>
+     <Switch />
       <div className='lg:max-w-xs'>
         <div className='mb-4'>
           <Profile />
