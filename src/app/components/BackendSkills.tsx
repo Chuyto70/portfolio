@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
-import { FaReact, FaVuejs } from "react-icons/fa";
+
 import { SiMysql } from "react-icons/si";
 import { FaNodeJs, FaLaravel, FaPython } from "react-icons/fa";
 import { BiLogoPhp } from "react-icons/bi";
