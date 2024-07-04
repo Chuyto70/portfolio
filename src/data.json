@@ -23,6 +23,14 @@
             "url": "https://www.bajatufactura.es/",
             "image": "bajatufactura_big.png"
             
+        },
+        {
+            "title":"Niid App",
+            "stack": ["#LARAVEL", "#REACT", "#MYSQL", "#DOCKER"],
+            "description": "En este proyecto, la consultora Macaque Consulting me contactó para realizar mantenimiento y agregar nuevas funcionalidades a la startup Niid. Fue un desafío, ya que en un mes necesitaban corregir numerosos errores tanto en el frontend como en el backend de la aplicación. El código del proyecto estaba muy desordenado, pero, sin tiempo para refactorizar, arreglé los problemas visuales y agregué nuevos formularios. También implementé un chat para que los usuarios pudieran hacer reservas, utilizando la API proporcionada por Macaque Consulting.",
+            "url": "https://pruebas.niid.me/",
+            "image": "niid.png"
+            
         }
     ]
 }
