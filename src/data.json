@@ -1,36 +1,70 @@
 {
-    "data":[
-        {
-            "title":"Linetor",
-            "stack": ["#HTML", "#CSS", "#JAVSCRIPT", "#VUEJS", "#SQLSERVER", "#NodeJS"],
-            "description": "En Linetor comencé realizando modificaciones al frontend, corrigiendo algunos errores de diseño. Posteriormente, desarrollé en su totalidad el apartado del backend, conectando una base de datos existente con la página web. Esta acción facilitó el acceso a la información para los clientes de Linetor.",
-            "url": "https://www.linetor.net/#/",
-            "image": "Linetor_big.jpg"
-            
-        },
-        {
-            "title":"Seguidor Market",
-            "stack": ["#HTML", "#CSS", "#LARAVEL", "#PHP", "#MYSQL"],
-            "description": "En este proyecto asumí el rol de desarrollador principal, creando un sistema completo que abarca un apartado de presentación donde se ofrece una descripción del proyecto y sus funcionalidades, registro y login permitiendo a los usuarios crear cuentas y acceder al sistema, panel administrativo con diferentes secciones para usuarios normales y administradores, verificación de cuenta por correo electrónico para garantizar la seguridad de los usuarios, métodos de pago integrados como Stripe y Binance Pay, facilitando las transacciones dentro del sistema.",
-            "url": "https://seguidormarket.com/",
-            "image": "Seguidormarket_big.png"
-            
-        },
-        {
-            "title":"Baja tu factura",
-            "stack": ["#HTML", "#CSS", "#JAVSCRIPT", "#VUEJS", "#NUXTJS", "#WORDPRESS"],
-            "description": "Junto con otro programador, realizamos el desarrollo de Bajatufactura, una aplicación web para gestionar facturas. En este proyecto, hicimos uso de Git y GitLab para poder llevar el trabajo coordinado. Yo me encargué de hacer las vistas de los formularios, donde los usuarios podían calcular el coste de sus facturas comparandolas con otras empresas, y las vistas de los gráficos, donde podían ver estadísticas y reportes. ",
-            "url": "https://www.bajatufactura.es/",
-            "image": "bajatufactura_big.png"
-            
-        },
-        {
-            "title":"Niid App",
-            "stack": ["#LARAVEL", "#REACT", "#MYSQL", "#DOCKER"],
-            "description": "En este proyecto, la consultora Macaque Consulting me contactó para realizar mantenimiento y agregar nuevas funcionalidades a la startup Niid. Fue un desafío, ya que en un mes necesitaban corregir numerosos errores tanto en el frontend como en el backend de la aplicación. El código del proyecto estaba muy desordenado, pero, sin tiempo para refactorizar, arreglé los problemas visuales y agregué nuevos formularios. También implementé un chat para que los usuarios pudieran hacer reservas, utilizando la API proporcionada por Macaque Consulting.",
-            "url": "https://pruebas.niid.me/",
-            "image": "niid.png"
-            
-        }
-    ]
+  "data": [
+    {
+      "title": "Linetor",
+      "stack": [
+        "#HTML",
+        "#CSS",
+        "#JAVSCRIPT",
+        "#VUEJS",
+        "#SQLSERVER",
+        "#NodeJS"
+      ],
+      "description": "En Linetor comencé realizando modificaciones al frontend, corrigiendo algunos errores de diseño. Posteriormente, desarrollé en su totalidad el apartado del backend, conectando una base de datos existente con la página web. Esta acción facilitó el acceso a la información para los clientes de Linetor.",
+      "url": "https://www.linetor.net/#/",
+      "image": "Linetor_big.jpg"
+    },
+    {
+      "title": "Seguidor Market",
+      "stack": [
+        "#HTML",
+        "#CSS",
+        "#LARAVEL",
+        "#PHP",
+        "#MYSQL"
+      ],
+      "description": "En este proyecto asumí el rol de desarrollador principal, creando un sistema completo que abarca un apartado de presentación donde se ofrece una descripción del proyecto y sus funcionalidades, registro y login permitiendo a los usuarios crear cuentas y acceder al sistema, panel administrativo con diferentes secciones para usuarios normales y administradores, verificación de cuenta por correo electrónico para garantizar la seguridad de los usuarios, métodos de pago integrados como Stripe y Binance Pay, facilitando las transacciones dentro del sistema.",
+      "url": "https://seguidormarket.com/",
+      "image": "Seguidormarket_big.png"
+    },
+    {
+      "title": "Baja tu factura",
+      "stack": [
+        "#HTML",
+        "#CSS",
+        "#JAVSCRIPT",
+        "#VUEJS",
+        "#NUXTJS",
+        "#WORDPRESS"
+      ],
+      "description": "Junto con otro programador, realizamos el desarrollo de Bajatufactura, una aplicación web para gestionar facturas. En este proyecto, hicimos uso de Git y GitLab para poder llevar el trabajo coordinado. Yo me encargué de hacer las vistas de los formularios, donde los usuarios podían calcular el coste de sus facturas comparandolas con otras empresas, y las vistas de los gráficos, donde podían ver estadísticas y reportes. ",
+      "url": "https://www.bajatufactura.es/",
+      "image": "bajatufactura_big.png"
+    },
+    {
+      "title": "Niid App",
+      "stack": [
+        "#LARAVEL",
+        "#REACT",
+        "#MYSQL",
+        "#DOCKER"
+      ],
+      "description": "En este proyecto, la consultora Macaque Consulting me contactó para realizar mantenimiento y agregar nuevas funcionalidades a la startup Niid. Fue un desafío, ya que en un mes necesitaban corregir numerosos errores tanto en el frontend como en el backend de la aplicación. El código del proyecto estaba muy desordenado, pero, sin tiempo para refactorizar, arreglé los problemas visuales y agregué nuevos formularios. También implementé un chat para que los usuarios pudieran hacer reservas, utilizando la API proporcionada por Macaque Consulting.",
+      "url": "https://niid.me/",
+      "image": "niid.png"
+    },
+    {
+      "title": "banAIna",
+      "stack": [
+        "#REACT",
+        "#TAILWINDCSS",
+        "#JAVASCRIPT",
+        "#PYTHON",
+        "#DOCKER"
+      ],
+      "description": "banAIna es una plataforma integral que ofrece un conjunto de herramientas impulsadas por inteligencia artificial, diseñadas para optimizar procesos y potenciar la eficiencia en entornos empresariales. Como Frontend Lead, lideré el desarrollo de la interfaz de usuario, definiendo la arquitectura del frontend, supervisando la implementación de componentes reutilizables y asegurando una experiencia fluida y escalable para los usuarios. El proyecto incluyó funcionalidades como generación de contenido automatizado, análisis de datos y asistentes inteligentes, todo presentado en una interfaz moderna y altamente interactiva.",
+      "url": "https://banaina.com/",
+      "image": "banaina.png"
+    }
+  ]
 }
